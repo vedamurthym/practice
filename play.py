@@ -17,3 +17,11 @@ def capital(s):
         print("number of capital letters:",c)
 capital(s)
 
+
+p=str(input("enter your password:"))
+def password(p):
+    if len(p) >= 8:
+        print("valid password")
+    else:
+        print("invalid password")   
+password(p)
