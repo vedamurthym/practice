@@ -5,3 +5,13 @@ def email(a):
     else:
         print("invalid email")
 email(a)
+
+
+s=input("enter your name:")
+c=0
+def capital(s):
+    for ch in s:
+        if ch in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+            c+=1
+        print("number of capital letters:",c)
+capital(s)
