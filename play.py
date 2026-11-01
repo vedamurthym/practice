@@ -4,4 +4,4 @@ def email(a):
         print("valid email")
     else:
         print("invalid email")
-        
+email(a)
