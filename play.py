@@ -16,7 +16,4 @@ def capital(s):
             c+=1
         print("number of capital letters:",c)
 capital(s)
-<<<<<<< HEAD
-=======
 
->>>>>>> b2
