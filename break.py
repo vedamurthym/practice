@@ -13,4 +13,11 @@ def addnum(n):
     print(s)
 addnum(n)
         
+s=list(input("enter a string:"))
+
+def numberofcharecters(s):
+    c=0
+    for i in s:
+        c=c+1
+    print("number of characters in the string:",c)
     
