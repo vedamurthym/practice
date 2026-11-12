@@ -5,3 +5,5 @@ add(2, 3)
 def multiply(a, b):
     return a * b    
 multiply(4, 5)
+
+print("i just typed")
