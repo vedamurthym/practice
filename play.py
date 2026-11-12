@@ -25,3 +25,7 @@ def password(p):
     else:
         print("invalid password")   
 password(p)
+
+def add(a,b):
+    return a+b
+add(10,20)
